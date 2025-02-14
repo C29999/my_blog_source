@@ -30,7 +30,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          PERSONAL_TOKEN: ${{ secrets.TEST }} # 你的个人访问令牌
           EXTERNAL_REPOSITORY: z//github.com/C29999/my_blog_source.git # 你的GitHub Pages仓库
           PUBLISH_BRANCH: main # 或者是你的GitHub Pages分支
           PUBLISH_DIR: ./                           
